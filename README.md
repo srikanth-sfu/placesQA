@@ -33,4 +33,4 @@ Source code is released under the **BSD 2-Clause license**
 
 If you are using our dataset, please site the following publication:
 
-# Webpage inspired by [Ibrahim et al. CVPR2016](https://github.com/mostafa-saad/deep-activity-rec).
+###### Webpage inspired by [Ibrahim et al. CVPR2016](https://github.com/mostafa-saad/deep-activity-rec).
