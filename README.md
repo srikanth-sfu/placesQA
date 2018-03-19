@@ -26,7 +26,7 @@ with acquiring relevant images (and other complementary modes of information) fr
 
 <img src="https://github.com/sri3705/placesQA/blob/master/images/QAexample.jpg" alt="PlacesQA example" height="400" >
 
-**Figure 2.** A demonstrative example of real world questions and answers, where Googleimage search results provide evidence for the answers.
+**Figure 2.** A demonstrative example of real world questions and answers, where Google image search results provide evidence for the answers.
 
 ## Dataset
 
