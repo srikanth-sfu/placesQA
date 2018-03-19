@@ -1,15 +1,15 @@
-# placesQA
+# PlacesQA
 Main Repository for Muralidharan et al., "PlacesQA: Towards Automatic Answering of Questions on the Web"
 
 ## [PlacesQA: Towards Automatic Answering of Questions on the Web. Srikanth Muralidharan, Akash Abdu Jyothi, Nelson Nauata, Fred Tung, Greg Mori. Arxiv Version](https://www.arxiv.org/)
 
 ## Contents
-0. [Abstract](abstract)
-0. [Task](#task)
-0. [Dataset](#dataset)
-0. [Model](#model)
-0. [Experiments](#experiments)
-0. [License and Citation](#license-and-citation)
+1. [Abstract](abstract)
+1. [Task](#task)
+1. [Dataset](#dataset)
+1. [Model](#model)
+1. [Experiments](#experiments)
+1. [License and Citation](#license-and-citation)
 
 ## Abstract
 
@@ -40,6 +40,8 @@ Dataset Statistics
 |Museums|250|15|
 |Nightlife|250|6|
 
+**Table 1.** Statistics of the PlacesQA dataset.
+
 ## Model
 
 <img src="https://github.com/sri3705/placesQA/blob/master/images/qa_model.png" alt="Generalized Set pooling model" height="400" >
@@ -49,10 +51,12 @@ Dataset Statistics
 
 ## Experiments
 
+
+
 ## License and Citation
 
 Source code is released under the **BSD 2-Clause license**
 
-If you are using our dataset, please site the following publication:
+If you are using our dataset, please cite the following publication:
 
 ###### Webpage inspired from [Ibrahim et al. CVPR2016](https://github.com/mostafa-saad/deep-activity-rec).
