@@ -34,8 +34,8 @@ with acquiring relevant images (and other complementary modes of information) fr
 
 Dataset Statistics
 
-|Category|Number of Places|Number of Categorical Questions|
-|---|---|---|
+|Category|Number of Places|No. of Categorical Questions|
+|:---:|:---:|:---:|
 |Hotels|250|18|
 |Museums|250|15|
 |Nightlife|250|6|
