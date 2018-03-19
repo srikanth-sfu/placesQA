@@ -19,6 +19,11 @@ Web users often post questions: "Does hotel X have a pool?", "Is museum Y wheelc
 
 <img src="https://github.com/sri3705/placesQA/blob/master/images/qa_pull.jpg" alt="Our Task" height="400" >
 
+**Figure 1** This paper takes a first step towards general question answering on the web (middle), in which an AI agent is given a user question and is tasked
+with acquiring relevant images (and other complementary modes of information) from the web to produce an accurate answer. Our PlacesQA dataset consists of
+``canonical" questions and answers covering 750 unique places, including hotels, museums, and nightlife venues. The visual QA example is from
+[AntolICCV2015](https://arxiv.org/pdf/1505.00468v6.pdf).
+
 
 ## Dataset
 
