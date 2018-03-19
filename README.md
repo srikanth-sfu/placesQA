@@ -17,7 +17,7 @@ Web users often post questions: "Does hotel X have a pool?", "Is museum Y wheelc
 
 ## Task
 
-
+<img src="https://github.com/sri3705/placesQA/images/qa_pull.pdf" alt="Our Task" height="400">
 
 
 ## Dataset
