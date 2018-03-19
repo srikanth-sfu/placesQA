@@ -32,6 +32,14 @@ with acquiring relevant images (and other complementary modes of information) fr
 
 ## You could download the dataset [here](https://arxiv.org).
 
+Dataset Statistics
+
+|Category|Number of Places|Number of Categorical Questions|
+|---|---|---|
+|Hotels|250|18|
+|Museums|250|15|
+|Nightlife|250|6|
+
 ## Model
 
 <img src="https://github.com/sri3705/placesQA/blob/master/images/qa_model.png" alt="Generalized Set pooling model" height="400" >
