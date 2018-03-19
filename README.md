@@ -19,17 +19,25 @@ Web users often post questions: "Does hotel X have a pool?", "Is museum Y wheelc
 
 <img src="https://github.com/sri3705/placesQA/blob/master/images/qa_pull.jpg" alt="Our Task" height="400" >
 
-**Figure 1** This paper takes a first step towards general question answering on the web (middle), in which an AI agent is given a user question and is tasked
+**Figure 1.** This paper takes a first step towards general question answering on the web (middle), in which an AI agent is given a user question and is tasked
 with acquiring relevant images (and other complementary modes of information) from the web to produce an accurate answer. Our PlacesQA dataset consists of
 ``canonical" questions and answers covering 750 unique places, including hotels, museums, and nightlife venues. The visual QA example is from
-[AntolICCV2015](https://arxiv.org/pdf/1505.00468v6.pdf).
+[AntolICCV'15](https://arxiv.org/pdf/1505.00468v6.pdf).
 
+<img src="https://github.com/sri3705/placesQA/blob/master/images/QAexample.jpg" alt="PlacesQA example" height="400" >
+
+**Figure 2.** A demonstrative example of real world questions and answers, where Googleimage search results provide evidence for the answers.
 
 ## Dataset
 
 ## You could download the dataset [here](https://arxiv.org).
 
 ## Model
+
+<img src="https://github.com/sri3705/placesQA/blob/master/images/qa_model.png" alt="Generalized Set pooling model" height="400" >
+
+**Figure 3.** Left:  We  propose a new permutation-invariant fusion operator for sets thatgeneralizes common pooling approaches, such as max, mean, and
+“max-min” pooling,and that can be learned end-to-end. Right: Late fusion model with generalized setpooling.
 
 ## Experiments
 
