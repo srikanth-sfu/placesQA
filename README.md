@@ -36,7 +36,7 @@ with acquiring relevant images (and other complementary modes of information) fr
 
 <img src="https://github.com/sri3705/placesQA/blob/master/images/qa_model.png" alt="Generalized Set pooling model" height="400" >
 
-**Figure 3.** Left:  We  propose a new permutation-invariant fusion operator for sets thatgeneralizes common pooling approaches, such as max, mean, and
+**Figure 3.** Left:  We  propose a new permutation-invariant fusion operator for sets that generalizes common pooling approaches, such as max, mean, and
 “max-min” pooling,and that can be learned end-to-end. Right: Late fusion model with generalized setpooling.
 
 ## Experiments
