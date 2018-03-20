@@ -43,6 +43,8 @@ Dataset Statistics
 
 **Table 1.** Statistics of the PlacesQA dataset.
 
+
+
 ## Model
 
 <img src="https://github.com/sri3705/placesQA/blob/master/images/qa_model.png" alt="Generalized Set pooling model" height="400" >
@@ -52,7 +54,23 @@ Dataset Statistics
 
 ## Experiments
 
+||Accuracy Wins vs. Losses|Accuracy Wins vs. Losses|
+||:---:|:---:|
+||**Hotels**|**Museums**|
+|:---:|:---: :---:|:---: :---:|
+|Majority|72.1 n/a|70.2 n/a|
+|Max Pooling|72.2 3 vs. 2|69.1 0 vs. 5|
+|Mean Pooling|73.5 5 vs. 1|69.4 1 vs. 2|
+|Generalized(ours)|74.9 7 vs. 1|69.5 1 vs. 3|
+||:---:|:---:|
+||**Nightlife**|**Overall**|
+|:---:|:---: :---:|:---: :---:|
+|Majority|64.0 n/a|70.1 n/a|
+|Max Pooling|63.7 0 vs. 1|69.7 3 vs. 8|
+|Mean Pooling|64.0 1 vs. 2|70.4 7 vs. 5|
+|Generalized(ours)|66.0 3 vs. 0|71.4 11 vs. 4|
 
+*Table 3.* Summary of the results obtained using traditional set fusion methods and ourlearned generalized set fusion using Google search images. Wins (or losses) indicates the number of questions for which the method performs better (or worse) than answeringthe majority answer (yes/no) for a particular question.
 
 ## License and Citation
 
