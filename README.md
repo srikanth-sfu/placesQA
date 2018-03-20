@@ -130,7 +130,85 @@ Dataset Statistics
   </tr>
 </table>
 
-**Table 3.** Summary of the results obtained using traditional set fusion methods and ourlearned generalized set fusion using Google search images. Wins (or losses) indicates the number of questions for which the method performs better (or worse) than answeringthe majority answer (yes/no) for a particular question.
+**Table 2.** Summary of the results obtained using traditional set fusion methods and ourlearned generalized set fusion using Google search images. Wins (or losses) indicates the number of questions for which the method performs better (or worse) than answeringthe majority answer (yes/no) for a particular question.
+
+<table>
+  <tr>
+    <td><b>Method</b></td>
+    <td><b>Accuracy</b></td>
+    <td><b>Wins vs. Losses</b></td>
+    <td><b>Accuracy</b></td>
+    <td><b>Wins vs. Losses</b></td>
+  </tr>
+  <tr>
+  	<td></td>
+    <td colspan="2"><center><b>Hotels</b></center></td>
+    <td colspan="2"><center><b>Museums</b></center></td>
+  </tr>
+  <tr>
+    <td>Majority</td>
+    <td>72.1</td>
+    <td>n/a</td>
+    <td>70.2</td>
+    <td>n/a</td>
+  </tr>
+  <tr>
+    <td>Max Pooling</td>
+    <td>72.7</td>
+    <td>3 vs. 2</td>
+    <td>69.9</td>
+    <td>0 vs. 1</td>
+  </tr>
+  <tr>
+    <td>Mean Pooling</td>
+    <td>72.5</td>
+    <td>5 vs. 1</td>
+    <td>69.8</td>
+    <td>0 vs. 2</td>
+  </tr>
+  <tr>
+    <td>Generalized(Ours)</td>
+    <td>74.3</td>
+    <td>8 vs. 3</td>
+    <td>70.0</td>
+    <td>2 vs. 3</td>
+  </tr>
+  <tr>
+  	<td></td>
+    <td colspan="2"><center><b>Nightlife</b></center></td>
+    <td colspan="2"><center><b>Overall</b></center></td>
+  </tr>
+  <tr>
+    <td>Majority</td>
+    <td>64.0</td>
+    <td>n/a</td>
+    <td>70.1</td>
+    <td>n/a</td>
+  </tr>
+  <tr>
+    <td>Max Pooling</td>
+    <td>63.7</td>
+    <td>1 vs. 1</td>
+    <td>70.3</td>
+    <td>4 vs. 4</td>
+  </tr>
+  <tr>
+    <td>Mean Pooling</td>
+    <td>64.0</td>
+    <td>1 vs. 1</td>
+    <td>70.1</td>
+    <td>5 vs. 5</td>
+  </tr>
+  <tr>
+    <td>Generalized(Ours)</td>
+    <td>63.7</td>
+    <td>1 vs. 1</td>
+    <td><b>71.1</b></td>
+    <td><b>11 vs. 7</b></td>
+  </tr>
+</table>
+
+**Table 3.** Summary of the results obtained using traditional set fusion methods and ourlearned generalized set fusion using Facebook images. Wins (or losses) indicates the number of questions for which the method performs better (or worse) than answeringthe majority answer (yes/no) for a particular question.
 
 ## License and Citation
 
