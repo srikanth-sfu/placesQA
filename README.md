@@ -162,7 +162,7 @@ Dataset Statistics
   <tr>
     <td>Mean Pooling</td>
     <td>72.5</td>
-    <td>5 vs. 1</td>
+    <td>4 vs. 2</td>
     <td>69.8</td>
     <td>0 vs. 2</td>
   </tr>
