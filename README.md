@@ -55,7 +55,7 @@ Dataset Statistics
 ## Experiments
 
 |Method|Accuracy Wins vs. Losses|Accuracy Wins vs. Losses|
-|---|:---:|:---:|
+||:---:|:---:|
 |---|**Hotels**|**Museums**|
 |:---:|:---: :---:|:---: :---:|
 |Majority|72.1 n/a|70.2 n/a|
