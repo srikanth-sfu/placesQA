@@ -21,7 +21,7 @@ Web users often post questions: "Does hotel X have a pool?", "Is museum Y wheelc
 
 **Figure 1.** This paper takes a first step towards general question answering on the web (middle), in which an AI agent is given a user question and is tasked
 with acquiring relevant images (and other complementary modes of information) from the web to produce an accurate answer. Our PlacesQA dataset consists of
-``canonical" questions and answers covering 750 unique places, including hotels, museums, and nightlife venues. The visual QA example is from
+"canonical" questions and answers covering 750 unique places, including hotels, museums, and nightlife venues. The visual QA example is from
 [AntolICCV'15](https://arxiv.org/pdf/1505.00468v6.pdf).
 
 <img src="https://github.com/sri3705/placesQA/blob/master/images/QAexample.jpg" alt="PlacesQA example" height="400" >
@@ -54,14 +54,81 @@ Dataset Statistics
 
 ## Experiments
 
-|Method|Accuracy Wins vs. Losses|Accuracy Wins vs. Losses|
-|---|:---:|:---:|
-|---|**Hotels**|**Museums**|
-|:---:|:---: :---:|:---: :---:|
-|Majority|72.1 n/a|70.2 n/a|
-|Max Pooling|72.2 3 vs. 2|69.1 0 vs. 5|
-|Mean Pooling|73.5 5 vs. 1|69.4 1 vs. 2|
-|Generalized(ours)|74.9 7 vs. 1|69.5 1 vs. 3|
+<table>
+  <tr>
+    <td><b>Method</b></td>
+    <td><b>Accuracy</b></td>
+    <td><b>Wins vs. Losses</b></td>
+    <td><b>Accuracy</b></td>
+    <td><b>Wins vs. Losses</b></td>
+  </tr>
+  <tr>
+  	<td></td>
+    <td colspan="2"><center><b>Hotels</b></center></td>
+    <td colspan="2"><center><b>Museums</b></center></td>
+  </tr>
+  <tr>
+    <td>Majority</td>
+    <td>72.1</td>
+    <td>n/a</td>
+    <td>70.2</td>
+    <td>n/a</td>
+  </tr>
+  <tr>
+    <td>Max Pooling</td>
+    <td>72.2</td>
+    <td>3 vs. 2</td>
+    <td>69.1</td>
+    <td>0 vs. 5</td>
+  </tr>
+  <tr>
+    <td>Mean Pooling</td>
+    <td>73.5</td>
+    <td>5 vs. 1</td>
+    <td>69.4</td>
+    <td>1 vs. 2</td>
+  </tr>
+  <tr>
+    <td>Generalized(Ours)</td>
+    <td>74.9</td>
+    <td>7 vs. 1</td>
+    <td>69.5</td>
+    <td>1 vs. 3</td>
+  </tr>
+  <tr>
+  	<td></td>
+    <td colspan="2"><center><b>Nightlife</b></center></td>
+    <td colspan="2"><center><b>Overall</b></center></td>
+  </tr>
+  <tr>
+    <td>Majority</td>
+    <td>64.0</td>
+    <td>n/a</td>
+    <td>70.1</td>
+    <td>n/a</td>
+  </tr>
+  <tr>
+    <td>Max Pooling</td>
+    <td>63.7</td>
+    <td>0 vs. 1</td>
+    <td>69.7</td>
+    <td>3 vs. 8</td>
+  </tr>
+  <tr>
+    <td>Mean Pooling</td>
+    <td>64.0</td>
+    <td>1 vs. 2</td>
+    <td>70.4</td>
+    <td>7 vs. 5</td>
+  </tr>
+  <tr>
+    <td>Generalized(Ours)</td>
+    <td>66.0</td>
+    <td>3 vs. 0</td>
+    <td><b>71.4</b></td>
+    <td><b>11 vs. 4</b></td>
+  </tr>
+</table>
 
 **Table 3.** Summary of the results obtained using traditional set fusion methods and ourlearned generalized set fusion using Google search images. Wins (or losses) indicates the number of questions for which the method performs better (or worse) than answeringthe majority answer (yes/no) for a particular question.
 
