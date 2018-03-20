@@ -54,9 +54,9 @@ Dataset Statistics
 
 ## Experiments
 
-||Accuracy Wins vs. Losses|Accuracy Wins vs. Losses|
+|Accuracy Wins vs. Losses|Accuracy Wins vs. Losses|
 
-*Table 3.* Summary of the results obtained using traditional set fusion methods and ourlearned generalized set fusion using Google search images. Wins (or losses) indicates the number of questions for which the method performs better (or worse) than answeringthe majority answer (yes/no) for a particular question.
+**Table 3.** Summary of the results obtained using traditional set fusion methods and ourlearned generalized set fusion using Google search images. Wins (or losses) indicates the number of questions for which the method performs better (or worse) than answeringthe majority answer (yes/no) for a particular question.
 
 ## License and Citation
 
