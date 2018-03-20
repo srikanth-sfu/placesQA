@@ -55,9 +55,13 @@ Dataset Statistics
 ## Experiments
 
 |Method|Accuracy Wins vs. Losses|Accuracy Wins vs. Losses|
-||:---:|:---:|
-||**Hotels**|**Museums**|
-
+|---|:---:|:---:|
+|---|**Hotels**|**Museums**|
+|:---:|:---: :---:|:---: :---:|
+|Majority|72.1 n/a|70.2 n/a|
+|Max Pooling|72.2 3 vs. 2|69.1 0 vs. 5|
+|Mean Pooling|73.5 5 vs. 1|69.4 1 vs. 2|
+|Generalized(ours)|74.9 7 vs. 1|69.5 1 vs. 3|
 
 **Table 3.** Summary of the results obtained using traditional set fusion methods and ourlearned generalized set fusion using Google search images. Wins (or losses) indicates the number of questions for which the method performs better (or worse) than answeringthe majority answer (yes/no) for a particular question.
 
