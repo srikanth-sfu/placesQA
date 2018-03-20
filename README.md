@@ -30,7 +30,8 @@ with acquiring relevant images (and other complementary modes of information) fr
 
 ## Dataset
 
-## You could download the dataset [here](https://arxiv.org).
+#### You could download the Google Search Images [here](https://arxiv.org).
+#### You could download the Facebook Images [here](https://arxiv.org).
 
 Dataset Statistics
 
