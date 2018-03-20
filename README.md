@@ -57,6 +57,6 @@ Dataset Statistics
 
 Source code is released under the **BSD 2-Clause license**
 
-If you are using our dataset, please cite the following publication:
+If you are using our dataset, please cite the following:
 
 ###### Webpage inspired from [Ibrahim et al. CVPR2016](https://github.com/mostafa-saad/deep-activity-rec).
